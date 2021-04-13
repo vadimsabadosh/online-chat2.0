@@ -1,0 +1,57 @@
+.formWrapper{
+  width: 100%;
+  margin: 0 auto;
+  border-right: 1px solid white;
+  border-left: 1px solid white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+}
+.form{
+  height: 55%;
+  padding-top: 50px;
+}
+.field{
+  display: block;
+  width: 80%;
+  margin: 25px auto 0;
+  height: 45px;
+  padding: 5px 15px;
+  border-radius: 10px;
+  background-color: #2d2d45;
+  color: white;
+  border: 1px solid transparent;
+
+}
+.regLink{
+  margin-top: 25px;
+  color: #6e709a;
+}
+.link{
+  color: white;
+}
+.button{
+  display: block;
+  width: 80%;
+  margin: 25px auto;
+  height: 45px;
+  line-height: 35px;
+  padding: 5px 15px;
+  border-radius: 10px;
+  color: white;
+  font-size:18px;
+  background: rgb(150,115,230);
+  background: -moz-linear-gradient(270deg, rgba(150,115,230,1) 0%, rgba(115,128,230,1) 100%);
+  background: -webkit-linear-gradient(270deg, rgba(150,115,230,1) 0%, rgba(115,128,230,1) 100%);
+  background: linear-gradient(270deg, rgba(150,115,230,1) 0%, rgba(115,128,230,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#9673e6",endColorstr="#7380e6",GradientType=1);
+}
+.error{
+  color: red;
+  margin-top: 5px;
+}
+.errorField{
+  border: 1px solid red;
+}

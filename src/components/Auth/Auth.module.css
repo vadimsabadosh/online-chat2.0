@@ -1,0 +1,35 @@
+.formWrapper{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+.form{
+  height: 55%;
+  padding-top: 50px;
+}
+.field{
+  display: block;
+  width: 80%;
+  margin: 25px auto 0;
+  height: 45px;
+  padding: 5px 15px;
+  border-radius: 10px;
+  background-color: #2d2d45;
+  color: white;
+}
+.regLink{
+  margin-top: 25px;
+  color: #6e709a;
+}
+.link{
+  color: white;
+}
+.error{
+  color: red;
+  margin-top: 5px;
+}
+.errorField{
+  border: 1px solid red;
+}

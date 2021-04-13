@@ -1,0 +1,78 @@
+.messageBlock{
+    align-self: flex-start;
+    margin-bottom: 20px;
+}
+.messageBlock.mine{
+    align-self: flex-end;
+}
+.inner{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.inner.reverse{
+    flex-direction: row-reverse;
+}
+.message{
+    margin-left: 5px;
+    background-color: #fff;
+    padding: 5px 10px;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 2px;
+    text-align: left;
+    max-width: 200px;
+    word-wrap: break-word;
+}
+
+.messageBlock:last-child{
+    margin-bottom: 5px;
+}
+.author{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-transform: uppercase;
+    height: 30px;
+    min-width: 30px;
+    background-color: #333333;
+    border-radius: 50%;
+}
+.author.mine{
+    background-color: #6e709a;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.info.mine{
+    align-items: flex-end;
+}
+.userEmail{
+    margin-left: 5px;
+    color: #fff;
+    opacity: .5;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.info.mine .userEmail{
+    margin-left: 0;
+    margin-right: 5px;
+}
+.info.mine .message{
+    margin-left: 0;
+    margin-right: 5px;
+    background: rgb(150,115,230);
+    background: -moz-linear-gradient(270deg, rgba(150,115,230,1) 0%, rgba(115,128,230,1) 100%);
+    background: -webkit-linear-gradient(270deg, rgba(150,115,230,1) 0%, rgba(115,128,230,1) 100%);
+    background: linear-gradient(270deg, rgba(150,115,230,1) 0%, rgba(115,128,230,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#9673e6",endColorstr="#7380e6",GradientType=1);
+    color: #fff;
+    max-width: 200px;
+    word-wrap: break-word;
+    text-align: right;
+}

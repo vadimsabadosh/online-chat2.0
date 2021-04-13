@@ -1,0 +1,12 @@
+.messages{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    padding: 50px 16px 20px;
+    flex-grow: 1;
+}
+.counter{
+    color: #fff;
+    font-size: 16px;
+}
