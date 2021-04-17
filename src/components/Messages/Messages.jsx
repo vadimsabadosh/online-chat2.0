@@ -20,7 +20,7 @@ const Messages = (props) => {
       return () => {
         unsubscribe();
       }
-      
+      // eslint-disable-next-line
     }, [])
 
     let messagesDiv = useRef(null);

@@ -27,7 +27,7 @@ const Footer = (props) => {
         <div className={s.footer}>
             <form onSubmit={ (e) => submitForm(e, inputValue)} className={s.form}>
                 <div className={s.inputWrapper}>
-                    <input value={inputValue} onChange={ (e) => setInputValue(e.target.value) } className={s.input} type="text"/>
+                    <input value={inputValue} onChange={ (e) => setInputValue(e.target.value) } placeholder='Enter your message...' className={s.input} type="text"/>
                 </div>
                 <button className={s.button}>
                     <img src={mailImg} alt=""/>

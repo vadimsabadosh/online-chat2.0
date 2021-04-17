@@ -18,6 +18,7 @@ const Chat = (props) => {
             props.updateCurrentUser(user.uid)
             setUserEmail(user.email);
           });
+          // eslint-disable-next-line
     }, [] )
     let logOut = () => {
       firebase.auth().signOut();

@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    max-width: 728px;
+    max-width: 100%;
     margin: 0 auto;
     background: rgb(69,70,100);
 	background: -moz-linear-gradient(180deg, rgba(69,70,100,1) 0%, rgba(44,45,73,1) 100%);
@@ -15,7 +15,7 @@
     display: flex;
     justify-content: flex-end;
     padding: 7px 15px;
-    position: absolute;
+    position: fixed;
     z-index: 111;
     top: 0;
     left: 0;

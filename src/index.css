@@ -40,10 +40,8 @@ body {
 	
 }
 .App{
-	width: 480px;
+	width: 100%;
   margin: 0 auto;
-  border-right: 1px solid white;
-  border-left: 1px solid white;
 	background: rgb(69,70,100);
 	background: -moz-linear-gradient(180deg, rgba(69,70,100,1) 0%, rgba(44,45,73,1) 100%);
 	background: -webkit-linear-gradient(180deg, rgba(69,70,100,1) 0%, rgba(44,45,73,1) 100%);
@@ -60,7 +58,7 @@ body {
 	
 }
 ::-webkit-scrollbar-button {
-	background-image:url('');
+	
 	background-repeat:no-repeat;
 	width:5px;
 	height:0px
