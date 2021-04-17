@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/online-chat2.0/static/css/main.02405c01.chunk.css",
-    "main.js": "/online-chat2.0/static/js/main.5bdd3ccc.chunk.js",
-    "main.js.map": "/online-chat2.0/static/js/main.5bdd3ccc.chunk.js.map",
+    "main.css": "/online-chat2.0/static/css/main.4678eeb9.chunk.css",
+    "main.js": "/online-chat2.0/static/js/main.7333abfd.chunk.js",
+    "main.js.map": "/online-chat2.0/static/js/main.7333abfd.chunk.js.map",
     "runtime-main.js": "/online-chat2.0/static/js/runtime-main.fe51078d.js",
     "runtime-main.js.map": "/online-chat2.0/static/js/runtime-main.fe51078d.js.map",
     "static/js/2.a8508fec.chunk.js": "/online-chat2.0/static/js/2.a8508fec.chunk.js",
     "static/js/2.a8508fec.chunk.js.map": "/online-chat2.0/static/js/2.a8508fec.chunk.js.map",
     "index.html": "/online-chat2.0/index.html",
-    "static/css/main.02405c01.chunk.css.map": "/online-chat2.0/static/css/main.02405c01.chunk.css.map",
+    "static/css/main.4678eeb9.chunk.css.map": "/online-chat2.0/static/css/main.4678eeb9.chunk.css.map",
     "static/js/2.a8508fec.chunk.js.LICENSE.txt": "/online-chat2.0/static/js/2.a8508fec.chunk.js.LICENSE.txt",
     "static/media/logo.9856b63b.png": "/online-chat2.0/static/media/logo.9856b63b.png",
     "static/media/mail.24835219.svg": "/online-chat2.0/static/media/mail.24835219.svg"
@@ -16,7 +16,7 @@
   "entrypoints": [
     "static/js/runtime-main.fe51078d.js",
     "static/js/2.a8508fec.chunk.js",
-    "static/css/main.02405c01.chunk.css",
-    "static/js/main.5bdd3ccc.chunk.js"
+    "static/css/main.4678eeb9.chunk.css",
+    "static/js/main.7333abfd.chunk.js"
   ]
 }
